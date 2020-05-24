@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset= "UTF-8">
+    <title>Menu</title>
+    <link rel="stylesheet" href="estilos.css"> 
+    <link rel="stylesheet" href="fonts.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+
+    <header>
+        <div class="menu_bar">
+            <a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><span class="icon-home"> </span>Inicio</a></li>
+                <li><a href="Instalacion.html"><span class="icon-images"> </span>Instalaciones</a></li>
+                <li><a href="Galeria.html"><span class="icon-image"> </span>Galeria</a></li>
+                <li><a href="Contacto.html"><span class="icon-mail2"> </span>Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+
+</head>
+<body>
+
+<div class="container gallery-container">
+
+
+
+<div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="Send email" />
+</form>
+
+
+<address>
+   <ul style="list-style:none; padding:0; marging:0;">
+      <li><strong>Hamburguesa</strong></li>
+          <li>Av. Uno 234</li>
+          <li>Guadalajara, jal</li>
+          <li><abbr title="Teléfono">T:</abbr><a href="tel:+511220000">(123) 1230-0000</a></li>
+   </ul>
+      </address>
+      <address>
+        <ul style="list-style:none; padding:0; marging:0;">
+           <li><strong>hamb</strong></li>
+           <li><a href="mailto:#">hamb@gmail.com</a></li>
+        </ul>
+      </address>
+
+      
+    <script  src= "http://code.jquery.com/jquery-latest.js"></script>
+    <script src="menu.js"></script>
+
